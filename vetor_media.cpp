@@ -5,15 +5,14 @@ int main() {
 	float soma=0;
 	float media;
 	float acima;
-	int i=0;
-	
-	for(i=0;i<8;i++){
+
+	for(int i=0;i<8;i++){
 		printf("Digite sua %d nota: ",i+1);
 		scanf("%d",&vetor[i]);
 		soma+= vetor[i];
 	}
 	media=soma/8;
-	for(i=0;i<8;i++){
+	for(int i=0;i<8;i++){
 		if(vetor[i]>media){
 			acima+=1;
 		}
