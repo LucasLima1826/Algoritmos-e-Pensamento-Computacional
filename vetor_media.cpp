@@ -1,14 +1,11 @@
 #include <stdio.h>
 
 int main() {
-	int vetor[8];
-	float soma=0;
-	float media;
-	float acima;
-
+	float soma=0, media, acima, vetor[8];;
+	
 	for(int i=0;i<8;i++){
 		printf("Digite sua %d nota: ",i+1);
-		scanf("%d",&vetor[i]);
+		scanf("%f",&vetor[i]);
 		soma+= vetor[i];
 	}
 	media=soma/8;
