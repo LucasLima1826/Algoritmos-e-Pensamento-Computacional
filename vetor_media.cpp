@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main() {
-	float soma=0, media, acima, vetor[8];;
+	float soma=0, media, acima, vetor[8];
 	
 	for(int i=0;i<8;i++){
 		printf("Digite sua %d nota: ",i+1);
